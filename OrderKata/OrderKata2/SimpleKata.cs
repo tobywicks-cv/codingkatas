@@ -36,6 +36,9 @@
 
     public class Modes
     {
-        public static Mode GetMode() => Mode.Mode1;
+        public static Mode GetMode()
+        {
+            return Mode.Mode1;
+        } 
     }
 }
