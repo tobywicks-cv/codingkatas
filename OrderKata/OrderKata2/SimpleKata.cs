@@ -7,21 +7,21 @@
             var kata = new SimpleKata();
             var result = kata.Greeting("hello");
 
-            Console.WriteLine(result.Item1);
+            Console.WriteLine(result);
         }
     }
 
     internal class SimpleKata
     {
-        public (string, bool) Greeting(string name)
+        public string Greeting(string name)
         {
             if (Modes.GetMode() == Mode.Mode1)
             {
-                return ("Hello", true);
+                return "Hello";
             }
             else
             {
-                return ("Goodbye", false);
+                return "Goodbye";
             }
         }
     }
