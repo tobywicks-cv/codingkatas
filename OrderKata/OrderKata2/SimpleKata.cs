@@ -23,7 +23,7 @@
             }
             else
             {
-                return "Goodbye";
+                return "Goodbye" + " " + DateTime.Now;
             }
         }
     }
