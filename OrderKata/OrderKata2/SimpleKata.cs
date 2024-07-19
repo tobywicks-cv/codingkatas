@@ -11,7 +11,7 @@
         }
     }
 
-    internal class SimpleKata
+    public class SimpleKata
     {
         public string CurrentGreeting = "Hello";
 
