@@ -13,11 +13,13 @@
 
     internal class SimpleKata
     {
+        public string CurrentGreeting = "Hello";
+
         public string Greeting(string name)
         {
             if (Modes.GetMode() == Mode.Mode1)
             {
-                return "Hello";
+                return CurrentGreeting;
             }
             else
             {
