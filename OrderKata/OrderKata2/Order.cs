@@ -46,7 +46,7 @@ namespace OrderKata
     {
         public Customer Customer { get; set; } = new Customer();
 
-        public decimal LineItemsCost => 10;
+        public decimal LineItemsCost => 100;
 
         public decimal TotalCost()
         {
